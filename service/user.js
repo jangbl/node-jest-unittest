@@ -5,6 +5,9 @@ class UserService {
       middleNames,
       lastName
     );
+    console.log(`firstName = ${fName}`);
+    console.log(`middleNames = ${mNames}`);
+    console.log(`lastName = ${lName}`);
 
     // save to db (out of scope for this tutorial)
     // ...
